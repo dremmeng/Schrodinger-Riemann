@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex schrodinger-riemann"] 1745444782.58162 "schrodinger-riemann.aux" "schrodinger-riemann.bbl" "schrodinger-riemann" 1746708140.32063 0
-  "./references.bib" 1745436351.32172 2339 a53a687ee5ba3811588f8e1f487a5a8f ""
+["bibtex schrodinger-riemann"] 1748281983.90762 "schrodinger-riemann.aux" "schrodinger-riemann.bbl" "schrodinger-riemann" 1748282150.94874 0
+  "./references.bib" 1748281260.77218 3263 aed420837ff8aaa0efc5db67caeb9a1d ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "schrodinger-riemann.aux" 1746708140.03964 1006 4dc95f5f516c517e342f839dc7c22e9c "pdflatex"
+  "schrodinger-riemann.aux" 1748282150.69465 1150 f2b44eb37c6c1cecb7af93433228748f "pdflatex"
   (generated)
   "schrodinger-riemann.bbl"
   "schrodinger-riemann.blg"
   (rewritten before read)
-["pdflatex"] 1746708139.73101 "/home/drew/Documents/Schrodinger-Riemann/schrodinger-riemann.tex" "schrodinger-riemann.pdf" "schrodinger-riemann" 1746708140.32082 0
-  "/home/drew/Documents/Schrodinger-Riemann/schrodinger-riemann.tex" 1746708139.55365 8233 787cca2c06086a4f4d6d42d69d60d173 ""
+["pdflatex"] 1748282150.39923 "/home/drew/Documents/Schrodinger-Riemann/schrodinger-riemann.tex" "schrodinger-riemann.pdf" "schrodinger-riemann" 1748282150.94887 0
+  "/home/drew/Documents/Schrodinger-Riemann/schrodinger-riemann.tex" 1748282150.23366 8384 fab551d14817d379e3058fe452cc135c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -18,7 +18,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -42,7 +41,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm" 1579560596 912 8da0595e5e615d33e0b2860959a58bf8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm" 1579560596 912 e43f3049348c6f2670d3b324e657c6e7 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/wasy/wasy8.tfm" 1579560596 904 a3deb54664adaaa632c6cdee911ffe34 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -59,7 +57,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb" 1248133631 35457 884c5a936fbb3fae6a4c18058662d654 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -98,9 +95,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743017093 5496777 dfac5a65ccd1b178961f799dec0d389d ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743017200 3345754 aaf435fcdfc94e675b7472152a660ba2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1743017089.25792 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "schrodinger-riemann.aux" 1746708140.03964 1006 4dc95f5f516c517e342f839dc7c22e9c "pdflatex"
-  "schrodinger-riemann.bbl" 1745444782.68023 916 f4869eb50e8b98bc5d5f6e8c61bcbaa5 "bibtex schrodinger-riemann"
-  "schrodinger-riemann.tex" 1746708139.55365 8233 787cca2c06086a4f4d6d42d69d60d173 ""
+  "schrodinger-riemann.aux" 1748282150.69465 1150 f2b44eb37c6c1cecb7af93433228748f "pdflatex"
+  "schrodinger-riemann.bbl" 1748281984.02334 1544 c94eb2de173ad18fd99383e58434ffbb "bibtex schrodinger-riemann"
+  "schrodinger-riemann.tex" 1748282150.23366 8384 fab551d14817d379e3058fe452cc135c ""
   (generated)
   "schrodinger-riemann.aux"
   "schrodinger-riemann.log"

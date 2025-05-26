@@ -25,7 +25,7 @@
 \newtheorem{exe}{Exercise}
 \newtheorem{conjecture}{Conjecture}
 \newtheorem{remark}{Remark}
-\title{Solutions to the Schrodinger Equation As a Ring}
+\title{From Basel to Schrodinger: The Grand Riemann Conjecture}
 \author{[Drew Remmenga]}
 
 
@@ -38,7 +38,7 @@
 
 \maketitle
 \begin{abstract}
-  Hilbert dreamed of a theory of Quantum gravity with eigenvalues given by the Riemann Zeta Function. We derive a quantum theory of spin and connect it to eigenvalues of L-Functions.
+  Hilbert dreamed of a theory of Quantum gravity with eigenvalues given by the Riemann Zeta Function. We derive a quantum theory of spin and connect it to eigenvalues of Dirichlet L-Functions.
 \end{abstract}
 \section{Solving the Schrodinger Equation}
   Schroginger introduced his wave equation \cite{Islam1994} which in a field with zero potential we write:
@@ -72,15 +72,47 @@
   Without loss of generality in the constant $c_2$. The constant $\mu_n = n \frac{\pi}{L}$.
   In the time dependent Schrodinger equation linear combinations of solutions are solutions so we need $n \in \N$ and $\lambda_n = -\mu_n^2$.
   We arrive at:
-  \begin{align*}
-      \psi (x,t) = \sum_{n=0}^{\infty} A_n e^{i t n^2} \sin(n x)
-  \end{align*}
+  \begin{align}
+      \psi (x,t) = \sum_{n=0}^{\infty} A_n e^{i t n^2} \sin(n x) \label{eq:wave}
+  \end{align}
   Traditionally in quantum mechanics we renormalize the equation to find the missing constant $A_n$.
-  Here we take the notion of fractional integrals. The fraction is given by the variable $\alpha$.
+  
+\section{Basel Problem and Fourier}
+  Taking the fourier series of $f(x) = x^2$ over the interval $[-\pi,\pi]$ results in a derivation of a closed form solution of the Basel Problem or $\zeta(2)$.
+  By Fourier we know \cite{Fourier1890} \cite{Haberman2012}:
+  \begin{align}
+    f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(\frac{2 \pi n x}{L}) + b_n \sin(\frac{2 \pi n x}{L}) \label{eq:fourier}
+  \end{align}
+  With $a_n$ and $b_n$ in \ref{eq:fourier} given by:
+  \begin{align*}
+    a_n = \frac{2}{L} \int_{L} f(x) \cos(\frac{2 \pi n x}{L}) \\
+    b_n = \frac{2}{L} \int_{L} f(x) \sin(\frac{2 \pi n x}{L})
+  \end{align*}
+  $x^2$ is an even function so $b_n = 0, \forall n \in \N$. Solving for $a_n$ in \ref{eq:fourier} yields:
+  \begin{align*}
+    a_0 &= \frac{1}{\pi} \int_{-\pi}^{\pi} x^2 dx \\
+    &= \frac{1}{\pi} \frac{1}{3} x^3 |_{x=-\pi}^{\pi} \\
+    &= \frac{2 \pi}{3}
+  \end{align*}
+  And in the $n \neq 0$ case we yield:
+  \begin{align*}
+    a_n &= \frac{1}{\pi} \int_{-\pi}^{\pi}x^2 \cos(nx) dx \\
+    &= (-1)^n \frac{4}{n^2}
+  \end{align*}
+  Putting $a_n$ in \ref{eq:fourier} and setting $x=\pi$ we get our solution to the Basel problem.
+  \begin{align*}
+    x^2 &= \frac{1}{3} \pi^2 + \sum_{n=1}^{\infty} (-1)^n \frac{4}{n^2} \cos(nx) \\
+    \pi^2 &= \frac{1}{3} \pi^2 + \sum_{n=1}^{\infty} \frac{4}{n^2} \\
+    \frac{\pi^2}{6} &= \sum_{n=1}^{\infty} \frac{1}{n^2} 
+  \end{align*} 
+  We know by this there is an intimate connection between the Zeta Function and fourier series.
+\section{Grand Riemann Conjecture} 
+    Here we take the notion of fractional integrals and generalize it to a complex number $s$. The fraction is given by the variable $\alpha$.
   \begin{align}
        _a D_t^{-\alpha} f(t) = \frac{1}{\Gamma (\alpha)} \int_{t}^{b} (\tau-t)^{\alpha-1} f(\tau) d\tau \label{Riemann-Liouville}
   \end{align}
-   This \ref{Riemann-Liouville} is the Riemann-Liouville fractional integral \cite{Hermann2014}. Here we take $\alpha=s$ to be any complex number.
+  This \ref{Riemann-Liouville} is the Riemann-Liouville fractional integral \cite{Hermann2014}. Here we take $\alpha=s$ to be any complex number.
+  Now we apply it to \ref{eq:wave} and renormalize the constants in $A_n$.
   \begin{align*}
       _a D_x^{-s} |\psi(x,t) |^2  &= 1 \\
       \frac{1}{\Gamma (s)} \int_{0}^{\pi} | (\pi - x)^{s-1} \psi(x,t) |^2 dx &= 1 \\
@@ -92,46 +124,9 @@
    \begin{align*}
        \sum_{n=1}^{\infty} \frac{A_n}{n^s} \frac{\bar{A_n}}{\bar{n^s}} e^{i n^2 t} \bar{e^{i n^2 t}} &= 1
    \end{align*}
-   Now we take the natural log of both sides.
    \begin{align}
-      \sum_{n=1}^{\infty} \frac{A_n \bar{A_n}}{n^{s}\bar{n^s}} e^{i t n^2} \bar{e^{i t n^2}} &=  1 \label{eq:1} \\
-      ln[\sum_{n=1}^{\infty} \frac{A_n}{n^s} \frac{\bar{A_n}}{\bar{n^{s}}} e^{i t n^2} \bar{e^{i t n^2}}] &= 2 m \pi \label{eq:2}
+      \sum_{n=1}^{\infty} \frac{A_n \bar{A_n}}{n^{s}\bar{n^s}} e^{i t n^2} \bar{e^{i t n^2}} &=  1 \label{eq:1}
   \end{align}
-  \section{Proof Solutions form a Field}
-  We shall take $m=0$ for our purposes.
-  \begin{remark}
-      This forms a ring.
-  \end{remark}
-  \begin{proof}
-      Let $a$, $b$, and $c$ be solutions to \ref{eq:2}.
-      Additions of these equations are associative.
-      \begin{align*}
-          (a+b)+c=a+(b+c)
-      \end{align*}
-      Multiplication is associative.
-      \begin{align*}
-          (a b) c = a (b c)
-      \end{align*}
-      Addition is commutative.
-      \begin{align*}
-          a + b = b + a
-      \end{align*}
-      Multiplication is commutative.
-      \begin{align*}
-          (a b) = (b a)
-      \end{align*}
-      Addition is distributive:
-      \begin{align*}
-          a (b + c) = ab + ac
-      \end{align*}
-      There exists a zero identity for addition. The trivial solution.
-      There exists an identity for multiplication the $A_n$ which sets the wave equal to 1.
-      There exists additive inverse elements. If $a$ is a solution to \ref{eq:1} then $-a$ is also a solution.
-  \end{proof}
-  \begin{remark}
-      This forms a group isomorphic to $\mathbb{S^{\aleph_0}}$. This is the circle in countably infinite dimensions. Take an element of \ref{eq:2}. There exists a map from the $A_n$ terms to each dimension of the circle by renormalizing. This map is clearly bijective.
-  \end{remark}
-  \section{The Field of L-Functions}
   We know the Riemann Hypothesis over finite fields is true. \cite{milne2015riemannhypothesisfinitefields} \cite{youtube:f1} But more work must be done to prove it over the field of complex numbers.
   There exists a map between solutions of \ref{eq:1} to the set of L-Functions by setting $A_n$ appropriately and multiplying by a constant.
   Products of solutions to \ref{eq:1} are also solutions. We perform a product integral over the domain.

@@ -6,6 +6,17 @@ Harold Davenport.
 \newblock Springer-Verlag, New York, third edition, 2000.
 \newblock Revised and with a preface by Hugh L. Montgomery.
 
+\bibitem{Fourier1890}
+Jean-Baptiste-Joseph Fourier.
+\newblock Mémoire sur la propagation de la chaleur dans les corps solides, présenté le 21 décembre 1807 à l'institut national.
+\newblock In Gaston Darboux, editor, {\em Oeuvres de Fourier}, volume~2, pages 218--219. Gauthier-Villars et Fils, Paris, 1890.
+\newblock Originally presented December 21, 1807.
+
+\bibitem{Haberman2012}
+Richard Haberman.
+\newblock {\em Applied Partial Differential Equations with Fourier Series and Boundary Value Problems}.
+\newblock Pearson Modern Classics for Advanced Mathematics Series. Pearson, Upper Saddle River, NJ, 5th edition, 2012.
+
 \bibitem{Hermann2014}
 Richard Hermann.
 \newblock {\em Fractional Calculus: An Introduction for Physicists}.
