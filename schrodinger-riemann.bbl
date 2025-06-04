@@ -1,39 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{Davenport2000}
-Harold Davenport.
-\newblock {\em Multiplicative Number Theory}, volume~74 of {\em Graduate Texts in Mathematics}.
-\newblock Springer-Verlag, New York, third edition, 2000.
-\newblock Revised and with a preface by Hugh L. Montgomery.
-
-\bibitem{Fourier1890}
-Jean-Baptiste-Joseph Fourier.
-\newblock Mémoire sur la propagation de la chaleur dans les corps solides, présenté le 21 décembre 1807 à l'institut national.
-\newblock In Gaston Darboux, editor, {\em Oeuvres de Fourier}, volume~2, pages 218--219. Gauthier-Villars et Fils, Paris, 1890.
-\newblock Originally presented December 21, 1807.
-
-\bibitem{Haberman2012}
-Richard Haberman.
-\newblock {\em Applied Partial Differential Equations with Fourier Series and Boundary Value Problems}.
-\newblock Pearson Modern Classics for Advanced Mathematics Series. Pearson, Upper Saddle River, NJ, 5th edition, 2012.
-
-\bibitem{Hermann2014}
-Richard Hermann.
-\newblock {\em Fractional Calculus: An Introduction for Physicists}.
-\newblock World Scientific Publishing, New Jersey, 2nd edition, 2014.
-
 \bibitem{Islam1994}
 Jamal~Nazrul Islam.
 \newblock The {Schrödinger} equation in quantum field theory.
 \newblock {\em Foundations of Physics}, 24(5):593--630, May 1994.
-
-\bibitem{milne2015riemannhypothesisfinitefields}
-James Milne.
-\newblock The riemann hypothesis over finite fields: From weil to the present day, 2015.
-
-\bibitem{youtube:f1}
-PeakMath.
-\newblock The rosetta stone (rh saga s1e12).
-\newblock YouTube, March 2025.
 
 \end{thebibliography}
