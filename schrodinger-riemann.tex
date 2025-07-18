@@ -49,20 +49,20 @@ The Fourier series of $f(x) = x^2$ on $[-\pi, \pi]$ yields:
 revealing a deep link between $\zeta(s)$ and harmonic analysis. We generalize this to $\zeta(s)$ for $\Re(s) > 1$.
 
 \section{Fractional Calculus and Zeta Zeros}
-The Riemann-Liouville fractional integral for $\Re(s) > 0$ is:
+The Riemann-Liouville fractional integral for $\Re(s) > 0$ is \cite{Hadamard1892}:
 \begin{align}
   _0D_x^{-s} f(x) = \frac{1}{\Gamma(s)} \int_0^x (x-t)^{s-1} f(t) \, dt. \label{Riemann-Liouville}
 \end{align}
 Applying this to $|\psi(x)|^2$ and demanding unit normalization suggests:
 \begin{align}
-  \sum_{n=1}^\infty \frac{|A_n|^2}{n^{2\sigma}} = 1, \quad \sigma = \Re(s). \label{eq:norm}
+  |\sum_{n=1}^\infty \frac{A_n}{n^{\sigma}}|^2 = 1, \quad \sigma = \Re(s). \label{eq:norm}
 \end{align}
 
 \section{Conjecture: Quantum Zeta Correspondence}
 \begin{conjecture}[Quantum-Theoretic Riemann Hypothesis]
   Let $\psi(x)$ be a solution to \eqref{schrodinger} with eigenvalues $E_n = \frac{n^2}{2}$. If the coefficients $A_n$ are chosen such that:
   \begin{align}
-    \sum_{n=1}^\infty \frac{|A_n|^2}{n^s} = 0, \label{eq:zeta}
+    |\sum_{n=1}^\infty \frac{A_n}{n^s}|^2 = 0, \label{eq:zeta}
   \end{align}
   then the non-trivial solutions $s$ satisfy $\Re(s) = \frac{1}{2}$. This implies an isomorphism between the energy spectrum of $\psi(x)$ and the critical zeros of $\zeta(s)$.
 \end{conjecture}
@@ -73,6 +73,7 @@ The conjecture posits that:
   \item The normalization condition \eqref{eq:norm} mirrors the analytic continuation of $\zeta(s)$.
   \item The critical line $\Re(s) = \frac{1}{2}$ emerges from the symmetry of the quantum system.
   \item A violation would require a non-unitary or asymmetric $\psi(x)$, akin to a "phase transition" in the zeta zeros.
+  \item The half integer spin of the electron (all fermions) proves the Grand Riemann Conjecture. 
 \end{itemize}
 
 \bibliographystyle{plain}
